@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtMembershipID"
+            android:text="MembershipID:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/MembershipID"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Date:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/DateID"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:inputType="date" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Course:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/CourseID"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:inputType="text" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Par:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/ParID"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Comments:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/ComID"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:inputType="text" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtHole1"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:inputType="number"
+            android:text="Hole1:"
+            android:editable="false" />
+        <EditText
+            android:id="@+id/Hole1"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:inputType="number"
+            android:text="" />
+        <TextView
+            android:id="@+id/txtHole2"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:inputType="number"
+            android:text="Hole2:" />
+        <EditText
+            android:id="@+id/Hole2"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="35dp"
+            android:inputType="number"
+            android:text="" />
+        <TextView
+            android:id="@+id/txtHole1"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:inputType="number"
+            android:text="Hole3:" />
+        <EditText
+            android:id="@+id/Hole3"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="35dp"
+            android:inputType="number"
+            android:text="" />
+        <TextView
+            android:id="@+id/txtHole4"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:inputType="number"
+            android:text="Hole4:" />
+        <EditText
+            android:id="@+id/Hole4"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="35dp"
+            android:inputType="number"
+            android:text="" />
+        <TextView
+            android:id="@+id/txtHole5"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:inputType="number"
+            android:text="Hole5:" />
+        <EditText
+            android:id="@+id/Hole5"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:inputType="number"
+            android:text="" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtHole6"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:inputType="number"
+            android:text="Hole6:" />
+        <EditText
+            android:id="@+id/Hole6"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:inputType="number"
+            android:text="" />
+        <TextView
+            android:id="@+id/txtHole7"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:inputType="number"
+            android:text="Hole7:" />
+        <EditText
+            android:id="@+id/Hole7"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="35dp"
+            android:inputType="number"
+            android:text="" />
+        <TextView
+            android:id="@+id/txtHole8"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:inputType="number"
+            android:text="Hole8:" />
+        <EditText
+            android:id="@+id/Hole8"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="35dp"
+            android:inputType="number"
+            android:text="" />
+        <TextView
+            android:id="@+id/txtHole9"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:inputType="number"
+            android:text="Hole9:" />
+        <EditText
+            android:id="@+id/Hole9"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="35dp"
+            android:inputType="number"
+            android:text="" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtHole10"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="45dp"
+            android:inputType="number"
+            android:text="Hole10:" />
+        <EditText
+            android:id="@+id/Hole10"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:inputType="number"
+            android:text="" />
+        <TextView
+            android:id="@+id/txtHole11"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="45dp"
+            android:inputType="number"
+            android:text="Hole11:" />
+        <EditText
+            android:id="@+id/Hole11"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="35dp"
+            android:inputType="number"
+            android:text="" />
+        <TextView
+            android:id="@+id/txtHole12"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="45dp"
+            android:inputType="number"
+            android:text="Hole12:" />
+        <EditText
+            android:id="@+id/Hole12"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="35dp"
+            android:inputType="number"
+            android:text="" />
+        <TextView
+            android:id="@+id/txtHole13"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="45dp"
+            android:inputType="number"
+            android:text="Hole13:" />
+        <EditText
+            android:id="@+id/Hole13"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="35dp"
+            android:inputType="number"
+            android:text="" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtHole14"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="45dp"
+            android:inputType="number"
+            android:text="Hole14:" />
+        <EditText
+            android:id="@+id/Hole14"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:inputType="number"
+            android:text="" />
+        <TextView
+            android:id="@+id/txtHole15"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="45dp"
+            android:inputType="number"
+            android:text="Hole15:" />
+        <EditText
+            android:id="@+id/Hole15"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:inputType="number"
+            android:text="" />
+        <TextView
+            android:id="@+id/txtHole16"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="45dp"
+            android:inputType="number"
+            android:text="Hole16:" />
+        <EditText
+            android:id="@+id/Hole16"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="35dp"
+            android:inputType="number"
+            android:text="" />
+        <TextView
+            android:id="@+id/txtHole17"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="45dp"
+            android:inputType="number"
+            android:text="Hole17:" />
+        <EditText
+            android:id="@+id/Hole17"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="35dp"
+            android:inputType="number"
+            android:text="" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtHole18"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="45dp"
+            android:inputType="number"
+            android:text="Hole18:" />
+        <EditText
+            android:id="@+id/Hole18"
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:inputType="number"
+            android:text="" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/Submit" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:text="Member Nr:" />
+        <EditText
+            android:numeric="integer"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:inputType="number"
+            android:text=""
+            android:id="@+id/txtMemberNr" />
+        <Button
+            android:text="View Scores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/View" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<!-- 2 columns -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="1dip">
+        <TextView
+            android:id="@+id/txtMembershipID"
+            android:text="MembershipID:" />
+        <EditText
+            android:id="@+id/MembershipID"
+            android:layout_span="4"
+            android:numeric="integer"
+            android:inputType="number" />
+    </TableRow>
+<!-- edittext span 2 column -->
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Date:" />
+        <EditText
+            android:numeric="integer"
+            android:inputType="number"
+            android:id="@+id/DateID"
+            android:layout_span="2" />
+    </TableRow>
+<!-- edittext span 2 column -->
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Course:" />
+        <EditText
+            android:numeric="integer"
+            android:inputType="number"
+            android:id="@+id/CourseID"
+            android:layout_span="2" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Par:" />
+        <EditText
+            android:numeric="integer"
+            android:inputType="number"
+            android:id="@+id/ParID" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Comments:" />
+        <EditText
+            android:numeric="integer"
+            android:inputType="number"
+            android:id="@+id/ComID"
+            android:layout_span="4" />
+    </TableRow>
+<!-- just draw a red line -->
+    <View
+        android:layout_height="2dip"
+        android:background="#FF0000" />
+<!-- 3 columns -->
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/Hole1"
+            android:text="Hole1:" />
+        <EditText
+            android:numeric="integer"
+            android:inputType="number"
+            android:id="@+id/Hole1ID" />
+        <TextView
+            android:id="@+id/Hole2"
+            android:text="Hole2:"
+            android:layout_span="2"
+            android:layout_width="43.0dp" />
+        <EditText
+            android:numeric="integer"
+            android:inputType="number"
+            android:id="@+id/Hole2ID" />
+    </TableRow>
+<!-- display this button in 3rd column via layout_column(zero based) -->
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+        <TableLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_column="0"
+            android:id="@+id/tableLayout2">
+            <TableRow
+                android:id="@+id/tableRow7">
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow8">
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow9">
+            </TableRow>
+        </TableLayout>
+        <Button
+            android:id="@+id/button4"
+            android:layout_column="2"
+            android:text="Column 3" />
+    </TableRow>
+<!-- display this button in 2nd column via layout_column(zero based) -->
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+    </TableRow>
+</TableLayout>
